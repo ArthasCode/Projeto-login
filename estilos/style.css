@@ -1,0 +1,19 @@
+@charset "UTF-8";
+
+/* Versão Mobile First */
+
+:root{
+    --cor_lilas:#5f2c82;
+    --cor_verde:#49a09d;
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    height: 100vh;
+    background-color: purple;
+}
+#imagem{
+    
+}
