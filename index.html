@@ -18,15 +18,19 @@
             <div id="form">
                 <h1>Login</h1>
                 <p>Seja bem-vindo(a) novamente! Para acessar nossos serviços, faça login de sua conta</p>
-                <form action="#" method="post">
+                <form action="#" method="get">
                     <label class="campo"><span class="material-symbols-outlined">person</span><input type="email" name="email" id="usuario" autocomplete="email" placeholder="example@gmail.com"></label>
                     <label class="campo"><span class="material-symbols-outlined">vpn_key</span><input type="password" name="senha" id="isenha" autocomplete="current-password" placeholder="Sua senha atual" minlength="8"></label>
-                    <input type="submit" value="Entrar">
+                    <input type="submit" value="Entrar" onclick="aviso()">
                     <a href="#" class="botao">Esqueci a senha <span class="material-symbols-outlined">mail</span></a>
                 </form>
             </div>   
             
      </main>
-
+     <script>
+        function aviso(){
+            alert('O sistema ainda não possui suporte a essa função!');
+        }
+     </script>
 </body>
 </html>
