@@ -1,0 +1,24 @@
+@charset "UTF-8";
+/*Versão pata tablets*/
+
+:root{
+    --cor_lilas:#5f2c82;
+    --cor_verde:#49a09d;
+    --cor_sombra:rgba(0, 0, 0, 0.551);
+}
+body{
+    background-image: linear-gradient(to top,var(--cor_verde),var(--cor_lilas));
+}
+#login{
+    width:90vw;
+    height: 300px;
+}
+#login>#imagem{
+    float: left;
+    height: 100%;
+    width: 30%;
+}
+#login>#form{
+    float: right;
+    width: 66%;
+}

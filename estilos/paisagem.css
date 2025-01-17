@@ -4,12 +4,14 @@
 
 #login{
     width: 500px;
-    height: 250px;
+    height: 310px;
 }
 #imagem{
-    display: inline-block;
+    width: 50%;
+    height: 100%;
+    float: left;
 }
 #form{
-    display: inline-block;
-    vertical-align: top;
+    float: right;
+    width: 45%;
 }

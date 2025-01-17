@@ -1,0 +1,32 @@
+@charset "UTF-8";
+
+/* Versão para notebooks e desktops*/
+
+:root{
+    --cor_lilas:#5f2c82;
+    --cor_verde:#49a09d;
+    --cor_sombra:rgba(0, 0, 0, 0.551);
+}
+body{
+    background-image: linear-gradient(to top,var(--cor_verde),var(--cor_lilas));
+}
+#login{
+    width: 950px;
+    height: 350px;
+}
+#imagem{
+    float: right;
+    height: 100%;
+    width: 50%;
+    
+}
+#form{
+    float: left;
+    width: 47%;
+}
+#form>h1{
+    font-size: 2em;
+}
+#form>p{
+    font-size: 1.2em;
+}
